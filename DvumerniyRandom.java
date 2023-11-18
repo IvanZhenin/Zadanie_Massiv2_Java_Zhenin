@@ -5,14 +5,14 @@ public class New
 
     public static void main(String[] args) 
     {
-   	 Scanner scanner = new Scanner(System.in);
+   	Scanner scanner = new Scanner(System.in);
     	// Ввод числа столбцов и строк
     	System.out.println("Введите количество столбцов:");
     	int columnCount = scanner.nextInt();
     	System.out.println("Введите количество строк:");
     	int rowCount = scanner.nextInt();
 
-		int[][] array = new int[rowCount][columnCount];
+	int[][] array = new int[rowCount][columnCount];
     	// Присвоение случайных значений элементам массива
     	for (int i = 0; i < rowCount; i++) 
     	{
